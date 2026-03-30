@@ -68,7 +68,7 @@
 
     /* HERO */
     .hero {
-      min-height: 100vh;
+      height: 600px;
       display: grid;
       grid-template-columns: 1fr 1fr;
       padding-top: 80px;
@@ -78,7 +78,7 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-      padding: 80px 60px 80px 60px;
+      padding: 48px 60px;
     }
 
     .hero-eyebrow {
@@ -100,7 +100,6 @@
 
     .hero-title em {
       font-style: normal;
-      display: block;
       color: var(--red);
     }
 
@@ -330,13 +329,13 @@
 
       .hero {
         grid-template-columns: 1fr;
-        min-height: auto;
+        height: auto;
       }
 
-      .hero-content { padding: 80px 24px 60px; }
+      .hero-content { padding: 60px 24px 48px; }
 
       .hero-image {
-        height: 280px;
+        height: 240px;
       }
       .hero-image::after { background: linear-gradient(to top, var(--black) 0%, transparent 50%); }
 
